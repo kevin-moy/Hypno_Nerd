@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "HypnosisViewController.h"
+#import "ReminderViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +16,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
+    
+    ReminderViewController *rcv = [[ReminderViewController alloc] init];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[hvc, rcv];
+    
+    self.window.rootViewController = tabBarController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

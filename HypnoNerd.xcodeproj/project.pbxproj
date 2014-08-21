@@ -21,6 +21,12 @@
 		47E4F79F19A56F6800CAFC41 /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E4F79E19A56F6800CAFC41 /* HypnoNerdTests.m */; };
 		47E4F7AA19A56F8500CAFC41 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E4F7A919A56F8500CAFC41 /* HypnosisView.m */; };
 		47E4F7AD19A56FAC00CAFC41 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E4F7AC19A56FAC00CAFC41 /* HypnosisViewController.m */; };
+		47E4F7B019A5725000CAFC41 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E4F7AF19A5725000CAFC41 /* ReminderViewController.m */; };
+		47E4F7B219A5734A00CAFC41 /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E4F7B119A5734A00CAFC41 /* ReminderViewController.xib */; };
+		47E4F7B519A5806500CAFC41 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E4F7B319A5806500CAFC41 /* Hypno.png */; };
+		47E4F7B619A5806500CAFC41 /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E4F7B419A5806500CAFC41 /* Hypno@2x.png */; };
+		47E4F7B919A5807300CAFC41 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E4F7B719A5807300CAFC41 /* Time.png */; };
+		47E4F7BA19A5807300CAFC41 /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E4F7B819A5807300CAFC41 /* Time@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +58,15 @@
 		47E4F79E19A56F6800CAFC41 /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
 		47E4F7A819A56F8500CAFC41 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
 		47E4F7A919A56F8500CAFC41 /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
-		47E4F7AB19A56FAC00CAFC41 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
-		47E4F7AC19A56FAC00CAFC41 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
+		47E4F7AB19A56FAC00CAFC41 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HypnosisViewController.h; path = ../HypnosisViewController.h; sourceTree = "<group>"; };
+		47E4F7AC19A56FAC00CAFC41 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HypnosisViewController.m; path = ../HypnosisViewController.m; sourceTree = "<group>"; };
+		47E4F7AE19A5725000CAFC41 /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		47E4F7AF19A5725000CAFC41 /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		47E4F7B119A5734A00CAFC41 /* ReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
+		47E4F7B319A5806500CAFC41 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		47E4F7B419A5806500CAFC41 /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
+		47E4F7B719A5807300CAFC41 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		47E4F7B819A5807300CAFC41 /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +96,6 @@
 		47E4F76D19A56F6800CAFC41 = {
 			isa = PBXGroup;
 			children = (
-				47E4F7AB19A56FAC00CAFC41 /* HypnosisViewController.h */,
-				47E4F7AC19A56FAC00CAFC41 /* HypnosisViewController.m */,
 				47E4F77F19A56F6800CAFC41 /* HypnoNerd */,
 				47E4F79819A56F6800CAFC41 /* HypnoNerdTests */,
 				47E4F77819A56F6800CAFC41 /* Frameworks */,
@@ -115,8 +126,13 @@
 		47E4F77F19A56F6800CAFC41 /* HypnoNerd */ = {
 			isa = PBXGroup;
 			children = (
+				47E4F7AB19A56FAC00CAFC41 /* HypnosisViewController.h */,
+				47E4F7AC19A56FAC00CAFC41 /* HypnosisViewController.m */,
 				47E4F78819A56F6800CAFC41 /* AppDelegate.h */,
 				47E4F78919A56F6800CAFC41 /* AppDelegate.m */,
+				47E4F7AE19A5725000CAFC41 /* ReminderViewController.h */,
+				47E4F7AF19A5725000CAFC41 /* ReminderViewController.m */,
+				47E4F7B119A5734A00CAFC41 /* ReminderViewController.xib */,
 				47E4F7A819A56F8500CAFC41 /* HypnosisView.h */,
 				47E4F7A919A56F8500CAFC41 /* HypnosisView.m */,
 				47E4F78B19A56F6800CAFC41 /* Images.xcassets */,
@@ -129,6 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				47E4F78119A56F6800CAFC41 /* HypnoNerd-Info.plist */,
+				47E4F7B319A5806500CAFC41 /* Hypno.png */,
+				47E4F7B419A5806500CAFC41 /* Hypno@2x.png */,
+				47E4F7B719A5807300CAFC41 /* Time.png */,
+				47E4F7B819A5807300CAFC41 /* Time@2x.png */,
 				47E4F78219A56F6800CAFC41 /* InfoPlist.strings */,
 				47E4F78519A56F6800CAFC41 /* main.m */,
 				47E4F78719A56F6800CAFC41 /* HypnoNerd-Prefix.pch */,
@@ -229,7 +249,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E4F7BA19A5807300CAFC41 /* Time@2x.png in Resources */,
+				47E4F7B919A5807300CAFC41 /* Time.png in Resources */,
 				47E4F78419A56F6800CAFC41 /* InfoPlist.strings in Resources */,
+				47E4F7B219A5734A00CAFC41 /* ReminderViewController.xib in Resources */,
+				47E4F7B519A5806500CAFC41 /* Hypno.png in Resources */,
+				47E4F7B619A5806500CAFC41 /* Hypno@2x.png in Resources */,
 				47E4F78C19A56F6800CAFC41 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +278,7 @@
 				47E4F78619A56F6800CAFC41 /* main.m in Sources */,
 				47E4F7AA19A56F8500CAFC41 /* HypnosisView.m in Sources */,
 				47E4F7AD19A56FAC00CAFC41 /* HypnosisViewController.m in Sources */,
+				47E4F7B019A5725000CAFC41 /* ReminderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
